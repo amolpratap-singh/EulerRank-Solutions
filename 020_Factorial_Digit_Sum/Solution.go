@@ -45,7 +45,7 @@ func factorialNum(n int) *big.Int {
 }
 
 /*
-// recursion function works till 10 not more than above due to int64 limit
+// recursion function works only till 10 not more than above due to int64 limit
 func factorialNum(num int64) int64 {
 	if num == 0 || num == 1 {
 		return 1
