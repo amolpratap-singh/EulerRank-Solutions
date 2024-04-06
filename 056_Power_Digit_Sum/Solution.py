@@ -2,10 +2,10 @@
 
 def get_pow_val_sum(a, b):
     out = a ** b
-    sum = 0
+    _sum = 0
     for var in str(out):
-        sum += int(var)
-    return sum
+        _sum += int(var)
+    return _sum
 
 num = int(input().strip())
 
