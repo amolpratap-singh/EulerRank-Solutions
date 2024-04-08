@@ -1,13 +1,14 @@
-def fibonacci_index(digits):
-    a, b = 1, 1
-    index = 2
-    while len(str(b)) < digits:
-        a, b = b, a + b
-        index += 1
-    return index 
+digits = [0, 1]
+f1 = f2 = 1
+c = 10
+for i in range(3, 25000):
+    (f1, f2) = (f2, f1 + f2)
+    if f2 >= c:
+        c *= 10
+        digits.append(i)
 
 t = int(input().strip())
 
 for a0 in range(t):
     n = int(input().strip())
-    print(fibonacci_index(n))
+    print(digits[n])
