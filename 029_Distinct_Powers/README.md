@@ -1,3 +1,5 @@
+[Project Euler #29: Distinct Powers](https://www.hackerrank.com/contests/projecteuler/challenges/euler029/problem)
+
 Consider all integer combinations of $a$<sup>b</sup> for $2 <= a <= 5$ and $2 <= b <= 5$ 
 :
 
