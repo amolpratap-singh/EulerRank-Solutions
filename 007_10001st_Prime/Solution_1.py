@@ -1,4 +1,7 @@
 import sys
+
+# Only 3 cases get pass out of 5 due to Runtime error for two cases
+
 N = 10000
 prime_num = [True for _ in range(N+1)]
 
